@@ -146,7 +146,7 @@ class Model:
         prompt: str,
         images_base64: list[str],
         negative_prompt: str = " ",
-        num_inference_steps: int = 40,
+        num_inference_steps: int = 20,
         true_cfg_scale: float = 4.0,
         guidance_scale: float = 1.0,
         seed: int | None = None,
@@ -191,7 +191,7 @@ class Model:
         height: int | None = None,
         negative_prompt: str = "Blurry, low quality, deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limbs, extra fingers, missing limbs, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus",
         seed: int | None = None,
-        num_inference_steps: int = 40,
+        num_inference_steps: int = 20,
         true_cfg_scale: float = 4.0,
         guidance_scale: float = 1.0,
     ) -> bytes:
